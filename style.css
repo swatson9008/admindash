@@ -1,0 +1,16 @@
+
+#maincontainer {
+    display: grid;
+}
+
+#header {
+    display: grid;
+}
+
+#mainContent {
+    display: grid;
+}
+
+#footer {
+    display: grid;
+}
