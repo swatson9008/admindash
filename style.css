@@ -165,7 +165,14 @@ ul {
     justify-content: flex-end;
     margin-right: 15px;
     
+    
 }
+
+.projectIcons svg {
+    height: 10px;
+  }
+
+
 
 /*right sidebars*/
 
