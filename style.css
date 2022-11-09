@@ -1,9 +1,12 @@
+/*CSS overide*/
+
 * {
     margin: 0;
     border: none;
     outline: none;
 }
 
+/*main container*/
 
 #maincontainer {
     display: grid;
@@ -20,6 +23,8 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     
 }
+
+/*header*/
 
 #headerContent {
     margin-left: 20px;
@@ -71,6 +76,8 @@
     color: azure;
 }
 
+/*left sidebar*/
+
 #leftProfile {
     grid-column: 2;
     grid-row: 1;
@@ -104,6 +111,7 @@ ul {
     margin: 10px 0;
 }
 
+/*main content*/
 
 #mainContent {
     grid-column: 2 / 6;
@@ -114,6 +122,8 @@ ul {
     background-color: #FFE3E1;
     
 }
+
+/*projects*/
 
 #yourProjects {
     display: grid;
@@ -153,6 +163,8 @@ ul {
     margin-right: 15px;
     
 }
+
+/*right sidebars*/
 
 #rightSide {
     margin-top: 10px;
