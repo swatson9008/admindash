@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 
 #maincontainer {
     display: grid;
@@ -11,7 +15,7 @@
     color: white;
     grid-column: 2 / 6;
     grid-row: 1 / 2;
-
+    
 }
 
 #headerContent {
@@ -43,14 +47,25 @@
     margin-right: 50px;
     
     
+    
 }
 
+#topB > button {
+    border-radius: 50px;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: indianred;
+    color: azure;
+}
 
-
-/*#topB > button {
-    margin: 5px
-    
-}*/
+#nameLeft {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
 
 #sidebar {
     display: grid;
@@ -63,7 +78,19 @@
     
 }
 
+#dashTitle {
+    margin-left: 40px;
+    margin-top: 15px;
+}
 
+.listItems {
+    padding: 10px;
+   
+}
+
+ul {
+    margin: 10px 0;
+}
 
 
 #mainContent {
@@ -106,17 +133,38 @@
     margin-left: 20px;
 }
 
-#announcements {
+#rightSide {
+    margin-top: 10px;
     display: grid;
-    grid-column: 2 / 3;
-    margin-top: 20px;
+    grid-column: 2;
     
 }
 
-#trending {
-    display: grid;
-    grid-column: 2 / 3;
+#announcementslogo {
+    grid-row: 1;
     
+}
+
+#announcementsSheet {
+    margin-top: 10px;
+    margin-right: 8px;
+    background-color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#trendingLogo {
+    grid-row: 2;
+    
+}
+
+#TrenderS {
+    margin-top: 10px;
+    margin-right: 8px;
+    background-color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #footer {
