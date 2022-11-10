@@ -150,11 +150,12 @@ ul {
 }
 
 
-
-.projectSheet img {
-    max-width: fit-content;
-    
-    border-radius: 8px;
+.projectIMG img {
+    display: block;
+    max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 .projectTitle {
