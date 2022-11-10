@@ -153,8 +153,7 @@ ul {
 
 .projectSheet img {
     max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    
     border-radius: 8px;
 }
 
@@ -172,6 +171,7 @@ ul {
 
 .projectIcons {
     display: flex;
+    align-items: flex-end;
     justify-content: flex-end;
     margin-right: 15px;
     
