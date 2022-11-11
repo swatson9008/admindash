@@ -1,9 +1,17 @@
 /*CSS overide*/
 
+@font-face {
+    font-family: customFonts;
+    src: url(Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+
+
 * {
     margin: 0;
     border: none;
     outline: none;
+    font-family: customFonts;
 }
 
 /*main container*/
