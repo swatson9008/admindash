@@ -42,11 +42,18 @@
     margin-bottom: 10px;
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    align-items: center;
     
 }
 
 #topnav input[type=text] {
     border-radius: 10px;
+    max-height: 25px;
+}
+
+#topnav img {
+    max-height: 25px;
 }
 
 #profileFront {
@@ -85,7 +92,7 @@
     font-weight: bold;
 }
 
-/*left sidebar*/
+
 
 #leftProfile {
     grid-column: 2;
@@ -93,7 +100,18 @@
     display: flex;
     justify-content: right;
     margin-right: 50px;
+    align-items: center;
+    font-size: 18px
 }
+
+.profilePic img {
+    max-width: 50px;
+    border-radius: 40px;
+    border: #FFF5E4 solid 2px;
+    margin-right: 10px;
+}
+
+/*left sidebar*/
 
 #sidebar {
     display: grid;
@@ -178,6 +196,10 @@ ul {
         
       
     
+}
+
+.middle a:hover {
+    color: #884b4b;
 }
 
 .projectIMG:hover {
