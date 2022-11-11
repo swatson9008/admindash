@@ -119,6 +119,10 @@
     margin-right: 10px;
 }
 
+.profilePic img:hover {
+    opacity: 0.3;
+}
+
 /*left sidebar*/
 
 #sidebar {
@@ -234,7 +238,7 @@ ul {
 
 .textbody {
     margin-left: 20px;
-    height: 60px;
+    height: 50px;
 }
 
 .projectIcons {
